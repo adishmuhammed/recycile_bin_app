@@ -1,0 +1,25 @@
+Flexible(
+                fit: FlexFit.tight,
+                flex: 1,
+                child: DecoratedBox(
+                  decoration: BoxDecoration(
+                      shape: BoxShape.rectangle,
+                      color: Colors.black,
+                      borderRadius: BorderRadius.all(Radius.circular(72))),
+                  child: ButtonBar(
+                    alignment: MainAxisAlignment.center,
+                    children: [
+                      OutlinedButton(
+                        onPressed: () {},
+                        style: OutlinedButton.styleFrom(
+                            onSurface: Colors.white24,
+                            backgroundColor: Colors.white24,
+                            shape: const StadiumBorder()),
+                        child: const Text("Sign In"),
+                      )
+                    ],
+                  ),
+                ))
+
+
+                * wv
